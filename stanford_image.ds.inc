@@ -175,6 +175,16 @@ function stanford_image_ds_view_modes_info() {
 
   $ds_view_mode = new stdClass();
   $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'stanford_button_card';
+  $ds_view_mode->label = 'Button Card';
+  $ds_view_mode->entities = array(
+    'bean' => 'bean',
+    'field_collection_item' => 'field_collection_item',
+  );
+  $export['stanford_button_card'] = $ds_view_mode;
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
   $ds_view_mode->view_mode = 'stanford_full_width_banner';
   $ds_view_mode->label = 'Banner Full Width';
   $ds_view_mode->entities = array(
