@@ -394,6 +394,12 @@ function stanford_image_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 2,
       ),
+      'stanford_small_card' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
       'stanford_small_square' => array(
         'label' => 'above',
         'settings' => array(),
@@ -711,6 +717,12 @@ function stanford_image_field_default_field_instances() {
         'weight' => 4,
       ),
       'stanford_sm_scaled' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
+      ),
+      'stanford_small_card' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -1379,6 +1391,27 @@ function stanford_image_field_default_field_instances() {
         'type' => 'image',
         'weight' => 1,
       ),
+      'stanford_small_card' => array(
+        'label' => 'hidden',
+        'module' => 'image',
+        'settings' => array(
+          'custom_link_to_entity' => 0,
+          'custom_prefix' => '',
+          'custom_reverse' => 0,
+          'custom_strip_preserve' => '',
+          'custom_strip_tags' => 0,
+          'custom_strtolower' => 0,
+          'custom_strtoupper' => 0,
+          'custom_suffix' => '',
+          'custom_trim' => 0,
+          'custom_ucfirst' => 0,
+          'custom_ucwords' => 0,
+          'image_link' => '',
+          'image_style' => 'small-card',
+        ),
+        'type' => 'image',
+        'weight' => 6,
+      ),
       'stanford_small_square' => array(
         'label' => 'hidden',
         'module' => 'image',
@@ -1685,6 +1718,12 @@ function stanford_image_field_default_field_instances() {
         'weight' => 3,
       ),
       'stanford_sm_scaled' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 3,
+      ),
+      'stanford_small_card' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',

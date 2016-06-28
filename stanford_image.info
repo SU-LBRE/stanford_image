@@ -51,6 +51,7 @@ features[ds_view_modes][] = stanford_large_square
 features[ds_view_modes][] = stanford_medium_square
 features[ds_view_modes][] = stanford_sm_profile
 features[ds_view_modes][] = stanford_sm_scaled
+features[ds_view_modes][] = stanford_small_card
 features[ds_view_modes][] = stanford_small_square
 features[ds_view_modes][] = stanford_thumbnail_square
 features[features_api][] = api:2

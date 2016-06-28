@@ -193,6 +193,9 @@ function stanford_image_strongarm() {
       'stanford_button_card' => array(
         'custom_settings' => TRUE,
       ),
+      'stanford_small_card' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(

@@ -286,6 +286,16 @@ function stanford_image_ds_view_modes_info() {
 
   $ds_view_mode = new stdClass();
   $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'stanford_small_card';
+  $ds_view_mode->label = 'Small Card';
+  $ds_view_mode->entities = array(
+    'bean' => 'bean',
+    'field_collection_item' => 'field_collection_item',
+  );
+  $export['stanford_small_card'] = $ds_view_mode;
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
   $ds_view_mode->view_mode = 'stanford_small_square';
   $ds_view_mode->label = 'Small Square';
   $ds_view_mode->entities = array(
